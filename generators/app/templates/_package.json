@@ -1,5 +1,9 @@
 {
-  "name": "package",
+  "name": "<%= name %>",
   "version": "0.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-uglify": "^1.2.0"
+  }
 }
