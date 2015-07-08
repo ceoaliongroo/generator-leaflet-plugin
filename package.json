@@ -1,7 +1,7 @@
 {
   "name": "generator-leaflet-plugin",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
+  "version": "0.0.1",
+  "description": "Yeoman Generator for Leaflet Plugin.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "ceoaliongroo/generator-leaflet-plugin",
@@ -17,11 +17,15 @@
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "leaftlet",
+    "plugin"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.19.0",
     "chalk": "^1.0.0",
+    "lodash": "^3.10.0",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.19.0",
     "yosay": "^1.0.2"
   },
   "devDependencies": {
