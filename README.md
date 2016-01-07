@@ -4,7 +4,7 @@ Create a skeleton to develop a [Leaflet Plugin](http://leafletjs.com/plugins.htm
 
 ### WIP - Disclosure
 
-This plugin is Work in Progess, defining his archicture and also his implementation. It's not ready to use in live/production enviroments but if you want can try, test and contribute, will be great!.
+This generator is Work in Progess, defining his archicture and also his implementation. It's not ready to use in live/production enviroments but if you want can try, test and contribute, will be great!.
 
 ### Requirements
 
