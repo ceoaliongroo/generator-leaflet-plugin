@@ -2,6 +2,10 @@
 
 Create a skeleton to develop a [Leaflet Plugin](http://leafletjs.com/plugins.html). Afer use the generator we recommed use the [Leaflet Plugin Guide](http://leafletjs.com/plugins.html#develop-your-own).
 
+### WIP - Disclosure
+
+This generator is Work in Progess, defining his archicture and also his implementation. It's not ready to use in live/production enviroments but if you want can try, test and contribute, will be great!.
+
 ### Requirements
 
 Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
