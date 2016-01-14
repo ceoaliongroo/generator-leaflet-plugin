@@ -4,8 +4,19 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 var mkdirp = require('mkdirp');
 var _ = require('lodash');
+var Utils = require('./helpers/utils');
 
 module.exports = yeoman.generators.Base.extend({
+
+  constructor: function() {
+    generators.Base.apply(this, arguments);
+
+    this.argument('appname', {type: String, required: true});
+
+    // Apply the best practives and constrains for the application name.
+    var helpers = new Utils();
+    this.appname = helpers.validateAppName(this.appname);
+  },
 
   prompting: function () {
     var done = this.async();
